@@ -1,0 +1,4 @@
+C:\Users\HK R.K\source\repos\variousConcept\variousConcept\obj\Debug\netcoreapp3.1\variousConcept.csprojAssemblyReference.cache
+C:\Users\HK R.K\source\repos\variousConcept\variousConcept\obj\Debug\netcoreapp3.1\variousConcept.csproj.CoreCompileInputs.cache
+C:\Users\HK R.K\source\repos\variousConcept\variousConcept\obj\Debug\netcoreapp3.1\variousConcept.AssemblyInfoInputs.cache
+C:\Users\HK R.K\source\repos\variousConcept\variousConcept\obj\Debug\netcoreapp3.1\variousConcept.AssemblyInfo.cs

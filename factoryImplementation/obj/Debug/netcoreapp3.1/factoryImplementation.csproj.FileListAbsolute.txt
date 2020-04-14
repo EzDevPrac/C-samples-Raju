@@ -1,0 +1,13 @@
+C:\Users\HK R.K\source\repos\variousConcept\factoryImplementation\bin\Debug\netcoreapp3.1\factoryImplementation.exe
+C:\Users\HK R.K\source\repos\variousConcept\factoryImplementation\bin\Debug\netcoreapp3.1\factoryImplementation.deps.json
+C:\Users\HK R.K\source\repos\variousConcept\factoryImplementation\bin\Debug\netcoreapp3.1\factoryImplementation.runtimeconfig.json
+C:\Users\HK R.K\source\repos\variousConcept\factoryImplementation\bin\Debug\netcoreapp3.1\factoryImplementation.runtimeconfig.dev.json
+C:\Users\HK R.K\source\repos\variousConcept\factoryImplementation\bin\Debug\netcoreapp3.1\factoryImplementation.dll
+C:\Users\HK R.K\source\repos\variousConcept\factoryImplementation\bin\Debug\netcoreapp3.1\factoryImplementation.pdb
+C:\Users\HK R.K\source\repos\variousConcept\factoryImplementation\obj\Debug\netcoreapp3.1\factoryImplementation.csprojAssemblyReference.cache
+C:\Users\HK R.K\source\repos\variousConcept\factoryImplementation\obj\Debug\netcoreapp3.1\factoryImplementation.csproj.CoreCompileInputs.cache
+C:\Users\HK R.K\source\repos\variousConcept\factoryImplementation\obj\Debug\netcoreapp3.1\factoryImplementation.AssemblyInfoInputs.cache
+C:\Users\HK R.K\source\repos\variousConcept\factoryImplementation\obj\Debug\netcoreapp3.1\factoryImplementation.AssemblyInfo.cs
+C:\Users\HK R.K\source\repos\variousConcept\factoryImplementation\obj\Debug\netcoreapp3.1\factoryImplementation.dll
+C:\Users\HK R.K\source\repos\variousConcept\factoryImplementation\obj\Debug\netcoreapp3.1\factoryImplementation.pdb
+C:\Users\HK R.K\source\repos\variousConcept\factoryImplementation\obj\Debug\netcoreapp3.1\factoryImplementation.genruntimeconfig.cache
