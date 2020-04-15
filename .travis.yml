@@ -3,14 +3,10 @@ image: Visual Studio 2019
 solution: variousConcept.sln
 before_build:
 - cmd: dotnet restore
-
-stages:
-- stage: build
-  displayName: Build and Test
 install:
   - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
  notifications:
   on_build_success: true
   on_build_failure: true
-  on_build_status_changed: true
+  on_build_status_changed: trues
  
