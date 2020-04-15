@@ -1,10 +1,10 @@
 language: csharp
 mono: none
-dotnet: 3.1.200
+dotnet: 3.1.201
 solution: variousConcept.sln
 script:
  - dotnet restore
- - msbuild /p:Configuration=Release VariousConcepts.sln
+ - msbuild /p:Configuration=Release variousConcepts.sln
  notifications:
   on_build_success: true
   on_build_failure: true
