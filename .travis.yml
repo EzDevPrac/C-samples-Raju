@@ -1,7 +1,10 @@
 language: csharp
 solution: variousConcept.sln
+stages:
+- stage: build
+  displayName: Build and Test
 install:
   - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 script:
-  - msbuild /p:Configuration=Release variousConcept.sln
+  - msbuild /p:Configuration=netcoreapp3.1 variousConcept.sln
  
