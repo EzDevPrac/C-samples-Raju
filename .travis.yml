@@ -1,12 +1,9 @@
-image: Visual Studio 2019
 language: csharp
-
 solution: variousConcept.sln
-before_build:
-- cmd: dotnet restore
-install:
-  - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
-msbuild /p:Configuration=netcoreapp3.1 variousConcept.sln
+branches:
+  only: master
+script:
+- dotnet restore
  notifications:
   on_build_success: true
   on_build_failure: true
