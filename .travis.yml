@@ -4,8 +4,20 @@ dotnet: 3.1.201
 solution: variousConcept.sln
 script:
  - dotnet restore
- - msbuild /p:Configuration=Release variousConcepts.sln
- notifications:
+stages:
+  - compile
+  - test
+  - deploy
+
+jobs:
+  include:
+    - stage: compile
+      script: skip    
+    - stage: test
+      script: skip
+      stage: deploy
+     
+notifications:
   on_build_success: true
   on_build_failure: true
   on_build_status_changed: trues
