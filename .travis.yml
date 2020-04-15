@@ -12,10 +12,11 @@ stages:
 jobs:
   include:
     - stage: compile
-      script: skip    
+       script: skip    
     - stage: test
-      script: skip
-      stage: deploy
+       script: skip
+    - stage: deploy
+       script: skip
      
 notifications:
   on_build_success: true
