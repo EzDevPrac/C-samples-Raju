@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\factoryImplementation\\factoryImplementation.csproj",
-      "projectName": "factoryImplementation",
-      "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\factoryImplementation\\factoryImplementation.csproj",
+      "projectUniqueName": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\factoryImplementation\\Factory.csproj",
+      "projectName": "Factory",
+      "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\factoryImplementation\\Factory.csproj",
       "packagesPath": "C:\\Users\\HK R.K\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\factoryImplementation\\obj\\",
       "projectStyle": "PackageReference",

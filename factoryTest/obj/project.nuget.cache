@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dSxgfEFcEGQNv3l6lWB1iyynSbxcNKzQnQhRoYBjH8SYZaGbwB6/ZFwhI+V9chmFdTK3crX4iM6+ZZ9lSsT5Mg==",
+  "dgSpecHash": "gk4OfMWY1JrRtOetu9i7xCQ4E56acrp18EEKaGxNn/a73+HsLvQpcK8/vU6BMeh0xaB7LHa4B23hea8XSoyngA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\factoryTest\\factoryTest.csproj",
+  "projectFilePath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\factoryTest\\Factory.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HK R.K\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\HK R.K\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

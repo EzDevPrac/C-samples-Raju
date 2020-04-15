@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YFuoOkqRwfCR8GX3jTyU+OnxO5zM6gPPytJaT/T6B0O3m0XKPbGPtEEsYb4Re+1GMpJxMp3/zVh6tvlhQFlt3A==",
+  "dgSpecHash": "IxncWC9O9Ow0LVNp8mRGCZyp5gsY6g7boBWy4UONR93n77h9Up3e1KPBlcMwtRkUbh5gWpPrMKDB+fQvQ94Czg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandTest\\commandTest.csproj",
+  "projectFilePath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandTest\\Command.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HK R.K\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\HK R.K\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

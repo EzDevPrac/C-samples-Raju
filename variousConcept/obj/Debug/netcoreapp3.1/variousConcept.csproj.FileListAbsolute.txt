@@ -2,3 +2,12 @@ C:\Users\HK R.K\source\repos\variousConcept\variousConcept\obj\Debug\netcoreapp3
 C:\Users\HK R.K\source\repos\variousConcept\variousConcept\obj\Debug\netcoreapp3.1\variousConcept.csproj.CoreCompileInputs.cache
 C:\Users\HK R.K\source\repos\variousConcept\variousConcept\obj\Debug\netcoreapp3.1\variousConcept.AssemblyInfoInputs.cache
 C:\Users\HK R.K\source\repos\variousConcept\variousConcept\obj\Debug\netcoreapp3.1\variousConcept.AssemblyInfo.cs
+C:\Users\HK R.K\source\repos\variousConcept\variousConcept\bin\Debug\netcoreapp3.1\variousConcept.exe
+C:\Users\HK R.K\source\repos\variousConcept\variousConcept\bin\Debug\netcoreapp3.1\variousConcept.deps.json
+C:\Users\HK R.K\source\repos\variousConcept\variousConcept\bin\Debug\netcoreapp3.1\variousConcept.runtimeconfig.json
+C:\Users\HK R.K\source\repos\variousConcept\variousConcept\bin\Debug\netcoreapp3.1\variousConcept.runtimeconfig.dev.json
+C:\Users\HK R.K\source\repos\variousConcept\variousConcept\bin\Debug\netcoreapp3.1\variousConcept.dll
+C:\Users\HK R.K\source\repos\variousConcept\variousConcept\bin\Debug\netcoreapp3.1\variousConcept.pdb
+C:\Users\HK R.K\source\repos\variousConcept\variousConcept\obj\Debug\netcoreapp3.1\variousConcept.dll
+C:\Users\HK R.K\source\repos\variousConcept\variousConcept\obj\Debug\netcoreapp3.1\variousConcept.pdb
+C:\Users\HK R.K\source\repos\variousConcept\variousConcept\obj\Debug\netcoreapp3.1\variousConcept.genruntimeconfig.cache

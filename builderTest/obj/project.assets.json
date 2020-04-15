@@ -3510,9 +3510,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\builderTest\\builderTest.csproj",
-      "projectName": "builderTest",
-      "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\builderTest\\builderTest.csproj",
+      "projectUniqueName": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\builderTest\\Builder.Test.csproj",
+      "projectName": "Builder.Test",
+      "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\builderTest\\Builder.Test.csproj",
       "packagesPath": "C:\\Users\\HK R.K\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\builderTest\\obj\\",
       "projectStyle": "PackageReference",

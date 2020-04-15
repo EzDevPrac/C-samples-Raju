@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\builderImplementation\\builderImplementation.csproj",
-      "projectName": "builderImplementation",
-      "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\builderImplementation\\builderImplementation.csproj",
+      "projectUniqueName": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\builderImplementation\\Builder.csproj",
+      "projectName": "Builder",
+      "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\builderImplementation\\Builder.csproj",
       "packagesPath": "C:\\Users\\HK R.K\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\builderImplementation\\obj\\",
       "projectStyle": "PackageReference",

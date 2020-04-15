@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\commandPattern.csproj": {}
+    "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\CommandPattern.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\commandPattern.csproj": {
+    "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\CommandPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\commandPattern.csproj",
-        "projectName": "commandPattern",
-        "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\commandPattern.csproj",
+        "projectUniqueName": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\CommandPattern.csproj",
+        "projectName": "CommandPattern",
+        "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\CommandPattern.csproj",
         "packagesPath": "C:\\Users\\HK R.K\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\obj\\",
         "projectStyle": "PackageReference",

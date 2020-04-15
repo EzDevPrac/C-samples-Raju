@@ -3,19 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "variousConcept", "variousConcept\variousConcept.csproj", "{0A882CB5-DEA2-41B5-AE5B-D0F4456B5565}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "variousConcept", "variousConcept\variousConcept.csproj", "{0A882CB5-DEA2-41B5-AE5B-D0F4456B5565}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "builderImplementation", "builderImplementation\builderImplementation.csproj", "{FC1087B7-34B8-47BD-84EE-9A7877E2B711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "builderImplementation\Builder.csproj", "{FC1087B7-34B8-47BD-84EE-9A7877E2B711}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "commandPattern", "commandPattern\commandPattern.csproj", "{2D098700-ECA7-46F5-8E4A-51B238ADCBE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "commandPattern\Command.csproj", "{2D098700-ECA7-46F5-8E4A-51B238ADCBE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "factoryImplementation", "factoryImplementation\factoryImplementation.csproj", "{1AF91FBA-F588-44AF-BDE2-9B51CB88D9CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "factoryImplementation\Factory.csproj", "{1AF91FBA-F588-44AF-BDE2-9B51CB88D9CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "builderTest", "builderTest\builderTest.csproj", "{5FBA335B-C671-4DDB-9C98-DC4E6A42AF63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder.Test", "builderTest\Builder.Test.csproj", "{5FBA335B-C671-4DDB-9C98-DC4E6A42AF63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "factoryTest", "factoryTest\factoryTest.csproj", "{10F707B2-744E-4972-91C5-55F52214EBAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory.Test", "factoryTest\Factory.Test.csproj", "{10F707B2-744E-4972-91C5-55F52214EBAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "commandTest", "commandTest\commandTest.csproj", "{2C4D7831-5901-4CBD-BE55-8871A63C1785}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command.Test", "commandTest\Command.Test.csproj", "{2C4D7831-5901-4CBD-BE55-8871A63C1785}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94F1B979-ED9A-4C9C-A87E-4151AB317C5A}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pairElementprogram", "pairElement\pairElementprogram.csproj", "{693629BD-10BD-47C0-96B3-E3B4E6D9868C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuilderPattern", "BuilderPattern", "{17D2E057-06B4-43B0-837F-8A94313130D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandPattern", "CommandPattern", "{1EDDE49A-E2C5-4DC2-904C-40333F474F42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryPattern", "FactoryPattern", "{5FDDF058-A2B9-41EA-888A-C8D6902E0D91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleProgram", "SampleProgram", "{EEDC3BFA-7336-49E0-9FB9-7F449890EFB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,9 +66,22 @@ Global
 		{2C4D7831-5901-4CBD-BE55-8871A63C1785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C4D7831-5901-4CBD-BE55-8871A63C1785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C4D7831-5901-4CBD-BE55-8871A63C1785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693629BD-10BD-47C0-96B3-E3B4E6D9868C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693629BD-10BD-47C0-96B3-E3B4E6D9868C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693629BD-10BD-47C0-96B3-E3B4E6D9868C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693629BD-10BD-47C0-96B3-E3B4E6D9868C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC1087B7-34B8-47BD-84EE-9A7877E2B711} = {17D2E057-06B4-43B0-837F-8A94313130D3}
+		{2D098700-ECA7-46F5-8E4A-51B238ADCBE9} = {1EDDE49A-E2C5-4DC2-904C-40333F474F42}
+		{1AF91FBA-F588-44AF-BDE2-9B51CB88D9CC} = {5FDDF058-A2B9-41EA-888A-C8D6902E0D91}
+		{5FBA335B-C671-4DDB-9C98-DC4E6A42AF63} = {17D2E057-06B4-43B0-837F-8A94313130D3}
+		{10F707B2-744E-4972-91C5-55F52214EBAB} = {5FDDF058-A2B9-41EA-888A-C8D6902E0D91}
+		{2C4D7831-5901-4CBD-BE55-8871A63C1785} = {1EDDE49A-E2C5-4DC2-904C-40333F474F42}
+		{693629BD-10BD-47C0-96B3-E3B4E6D9868C} = {EEDC3BFA-7336-49E0-9FB9-7F449890EFB3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {03C3D0B2-0A62-43BD-8FCE-90313F709F61}

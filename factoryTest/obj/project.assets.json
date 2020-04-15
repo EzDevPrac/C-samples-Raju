@@ -901,6 +901,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Factory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Factory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Factory.dll": {}
+        }
       }
     }
   },
@@ -3494,10 +3504,16 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Factory/1.0.0": {
+      "type": "project",
+      "path": "../factoryImplementation/Factory.csproj",
+      "msbuildProject": "../factoryImplementation/Factory.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Factory >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "coverlet.collector >= 1.2.0",
       "xunit >= 2.4.0",
@@ -3510,9 +3526,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\factoryTest\\factoryTest.csproj",
-      "projectName": "factoryTest",
-      "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\factoryTest\\factoryTest.csproj",
+      "projectUniqueName": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\factoryTest\\Factory.Test.csproj",
+      "projectName": "Factory.Test",
+      "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\factoryTest\\Factory.Test.csproj",
       "packagesPath": "C:\\Users\\HK R.K\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\factoryTest\\obj\\",
       "projectStyle": "PackageReference",
@@ -3529,7 +3545,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\factoryImplementation\\Factory.csproj": {
+              "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\factoryImplementation\\Factory.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

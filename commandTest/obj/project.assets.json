@@ -902,14 +902,14 @@
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "commandPattern/1.0.0": {
+      "Command/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/commandPattern.dll": {}
+          "bin/placeholder/Command.dll": {}
         },
         "runtime": {
-          "bin/placeholder/commandPattern.dll": {}
+          "bin/placeholder/Command.dll": {}
         }
       }
     }
@@ -3505,16 +3505,16 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "commandPattern/1.0.0": {
+    "Command/1.0.0": {
       "type": "project",
-      "path": "../commandPattern/commandPattern.csproj",
-      "msbuildProject": "../commandPattern/commandPattern.csproj"
+      "path": "../commandPattern/Command.csproj",
+      "msbuildProject": "../commandPattern/Command.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Command >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
-      "commandPattern >= 1.0.0",
       "coverlet.collector >= 1.2.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
@@ -3526,9 +3526,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandTest\\commandTest.csproj",
-      "projectName": "commandTest",
-      "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandTest\\commandTest.csproj",
+      "projectUniqueName": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandTest\\Command.Test.csproj",
+      "projectName": "Command.Test",
+      "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandTest\\Command.Test.csproj",
       "packagesPath": "C:\\Users\\HK R.K\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandTest\\obj\\",
       "projectStyle": "PackageReference",
@@ -3546,8 +3546,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\commandPattern.csproj": {
-              "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\commandPattern.csproj"
+            "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\Command.csproj": {
+              "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\Command.csproj"
             }
           }
         }

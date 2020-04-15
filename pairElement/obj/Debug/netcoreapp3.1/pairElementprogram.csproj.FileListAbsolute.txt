@@ -1,0 +1,13 @@
+C:\Users\HK R.K\source\repos\variousConcept\pairElement\bin\Debug\netcoreapp3.1\pairElementprogram.exe
+C:\Users\HK R.K\source\repos\variousConcept\pairElement\bin\Debug\netcoreapp3.1\pairElementprogram.deps.json
+C:\Users\HK R.K\source\repos\variousConcept\pairElement\bin\Debug\netcoreapp3.1\pairElementprogram.runtimeconfig.json
+C:\Users\HK R.K\source\repos\variousConcept\pairElement\bin\Debug\netcoreapp3.1\pairElementprogram.runtimeconfig.dev.json
+C:\Users\HK R.K\source\repos\variousConcept\pairElement\bin\Debug\netcoreapp3.1\pairElementprogram.dll
+C:\Users\HK R.K\source\repos\variousConcept\pairElement\bin\Debug\netcoreapp3.1\pairElementprogram.pdb
+C:\Users\HK R.K\source\repos\variousConcept\pairElement\obj\Debug\netcoreapp3.1\pairElementprogram.csprojAssemblyReference.cache
+C:\Users\HK R.K\source\repos\variousConcept\pairElement\obj\Debug\netcoreapp3.1\pairElementprogram.csproj.CoreCompileInputs.cache
+C:\Users\HK R.K\source\repos\variousConcept\pairElement\obj\Debug\netcoreapp3.1\pairElementprogram.AssemblyInfoInputs.cache
+C:\Users\HK R.K\source\repos\variousConcept\pairElement\obj\Debug\netcoreapp3.1\pairElementprogram.AssemblyInfo.cs
+C:\Users\HK R.K\source\repos\variousConcept\pairElement\obj\Debug\netcoreapp3.1\pairElementprogram.dll
+C:\Users\HK R.K\source\repos\variousConcept\pairElement\obj\Debug\netcoreapp3.1\pairElementprogram.pdb
+C:\Users\HK R.K\source\repos\variousConcept\pairElement\obj\Debug\netcoreapp3.1\pairElementprogram.genruntimeconfig.cache

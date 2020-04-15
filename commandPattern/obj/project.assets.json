@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\commandPattern.csproj",
-      "projectName": "commandPattern",
-      "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\commandPattern.csproj",
+      "projectUniqueName": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\Command.csproj",
+      "projectName": "Command",
+      "projectPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\Command.csproj",
       "packagesPath": "C:\\Users\\HK R.K\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\commandPattern\\obj\\",
       "projectStyle": "PackageReference",
