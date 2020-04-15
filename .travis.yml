@@ -5,12 +5,13 @@ solution: variousConcept.sln
 script:
  - dotnet restore
 
+stages:
+  - compile
+  - deploy
 jobs:
   include:
     - stage: compile
        script: skip    
-    - stage: test
-       script: skip
     - stage: deploy
        script: skip
      
