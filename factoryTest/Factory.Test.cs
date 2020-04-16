@@ -10,7 +10,7 @@ namespace DesignPatterns.Factory.Test
         [Fact]
         public void Test1()
         {
-            ObjectFactory Objectfactory = new ObjectFactory();
+            //ObjectFactory Objectfactory = new ObjectFactory();
             Dictionary<string, object> data = new Dictionary<string, object>();
         //     expected = Objectfactory.Get(ObjectType.gmail,data);
         //    Assert.Equal(expected,
