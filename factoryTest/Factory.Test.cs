@@ -1,4 +1,5 @@
 using DesignPatterns.Factory;
+using Factory;
 using System;
 using System.Collections.Generic;
 using Xunit;
@@ -10,7 +11,10 @@ namespace DesignPatterns.Factory.Test
         [Fact]
         public void Test1()
         {
-            //ObjectFactory Objectfactory = new ObjectFactory();
+            ObjectFactory Objectfactory = new ObjectFactory();
+            var expected = Objectfactory.GetObject();
+
+            Assert.Equal(expected, expected);
             Dictionary<string, object> data = new Dictionary<string, object>();
         //     expected = Objectfactory.Get(ObjectType.gmail,data);
         //    Assert.Equal(expected,

@@ -14,14 +14,6 @@ namespace Builder
         public string Roof { get; set; }
         public int Floors { get; internal set; }
 
-        public House()
-        {
-            Bedrooms = Bedrooms;
-            LivingRoom = LivingRoom;
-            this.Kitchen = Kitchen;
-            Roof = Roof;
-            Floor = Floor;
-
-        }
+      
     }
 }

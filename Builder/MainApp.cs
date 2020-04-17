@@ -3,7 +3,7 @@ using System;
 
 namespace DesignPattern.Builder
 {
-    public class Program
+    public class MainApp
     {
         public static void Main(string[] args)
         {
@@ -16,7 +16,7 @@ namespace DesignPattern.Builder
                 .Roof("Metal")
                 .Build();
             Console.WriteLine("House Build with the follwing Requirement " + 
-                "\nNumber of Floor: " + FluentHouse.Floor +
+                "\nNumber of Floor: " + FluentHouse.Floors +
                  "\nNumber of BedRoom: " + FluentHouse.Bedrooms +
                  "\nHas Kitchen: " + FluentHouse.Kitchen +
                  "\nHasLivingRoom: " + FluentHouse.LivingRoom +

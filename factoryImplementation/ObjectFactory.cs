@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Factory
 {
-    class ObjectFactory
+    public class ObjectFactory
     {
         private ObjectType _type;
         private Dictionary<string, object> _data;
@@ -17,7 +17,7 @@ namespace Factory
         }
 
 
-        private IObject GetObject()
+        public IObject GetObject()
         {
             IObject obj = null;
 

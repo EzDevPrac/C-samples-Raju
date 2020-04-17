@@ -15,42 +15,43 @@ namespace Builder
 
             public HouseBuilder Floors(int value)
             {
-                this.floors = value;
+               floors = value;
                 return this;
             }
 
             public HouseBuilder Bedrooms(int value)
             {
-                this.bedrooms = value;
+                bedrooms = value;
                 return this;
             }
 
             public HouseBuilder HasLivingRoom()
             {
-                this.livingroom = true;
+                livingroom = true;
                 return this;
             }
             public HouseBuilder HasKitchen()
             {
-                this.kitchen = true;
+                kitchen = true;
                 return this;
             }
 
             public HouseBuilder Roof(string value)
             {
-                this.roof = value;
+                roof = value;
                 return this;
             }
 
         public House Build()
             {
                 var house = new House();
-                house.Floors = this.floors;
-                house.Bedrooms = this.bedrooms;
-                house.LivingRoom = this.livingroom;
-                house.Kitchen = this.kitchen;
-                house.Roof = this.roof;
+                house.Floors = floors;
+                house.Bedrooms = bedrooms;
+                house.LivingRoom = livingroom;
+                house.Kitchen = kitchen;
+                house.Roof = roof;
                 return house;
             }
-        }
+       
+    }
     }

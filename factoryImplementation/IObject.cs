@@ -6,6 +6,6 @@ namespace Factory
 {
     public interface IObject
     {
-        public string getInfo();
+        public string GetInfo();
     }
 }
