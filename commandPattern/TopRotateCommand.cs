@@ -12,16 +12,23 @@ namespace Command
             this.rotatingTop = rotatingTop;
         }
 
-        public void execute()
+      
+
+        public string Execute()
         {
-            Console.WriteLine("TopRotateCommand.execute(): Invoking startRotating() on RotatingTop");
             rotatingTop.StartRotating();
+            return "TopRotateCommand.execute(): Invoking startRotating() on RotatingTop";
+           
+         
         }
 
-        public void undo()
+       
+        public string Undo()
         {
-            Console.WriteLine("TopRotateCommand.undo(): Undoing previous action->Invoking stopRotating() on RotatingTop");
             rotatingTop.StopRotating();
+            return "TopRotateCommand.undo(): Undoing previous action->Invoking stopRotating() on RotatingTop";
+            
+           
         }
     }
 }

@@ -3,29 +3,31 @@ using System;
 
 namespace DesignPatterns.Command
 {
-    public class CmdPattern
+    public  class CmdPattern
     {
 
         public static void Main(String[] args)
         {
             RemoteControl remoteControl = new RemoteControl();
            
+           
             Car car = new Car();
             ICommandBase carMoveCommand = new CarMoveCommand(car);
-            remoteControl.onButtonPressed(carMoveCommand);
+            remoteControl.OnButtonPressed(carMoveCommand);
           
             ICommandBase carStopCommand = new CarStopCommand(car);
-            remoteControl.offButtonPressed(carStopCommand);
+            remoteControl.OffButtonPressed(carStopCommand);
            
-            remoteControl.undoButtonPressed();
+            remoteControl.UndoButtonPressed();
 
             RotatingTop top = new RotatingTop();
             ICommandBase topRotateCommand = new TopRotateCommand(top);
-            remoteControl.onButtonPressed(topRotateCommand);
+            remoteControl.OnButtonPressed(topRotateCommand);
             ICommandBase topStopRotateCommand = new TopStopRotateCommand(top);
-            remoteControl.offButtonPressed(topStopRotateCommand);
+            remoteControl.OffButtonPressed(topStopRotateCommand);
           
-            remoteControl.undoButtonPressed();
+            remoteControl.UndoButtonPressed();
+            Console.ReadLine();
         }
     }
 

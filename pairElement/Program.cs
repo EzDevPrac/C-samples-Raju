@@ -1,4 +1,6 @@
-﻿using System;
+﻿using pairElementprogram;
+using System;
+using System.Collections.Generic;
 
 namespace FindPair.Array
 {
@@ -6,10 +8,11 @@ namespace FindPair.Array
     {
 
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             int nElement;
             int sum;
+           
             Console.WriteLine("Enter the size of input elements");
             nElement = Convert.ToInt32(Console.ReadLine());
             int[] Input = new int[nElement];
@@ -19,34 +22,30 @@ namespace FindPair.Array
             }
             Console.WriteLine("Enter the sum element");
             sum = Convert.ToInt32(Console.ReadLine());
-            findPair(Input, sum);
+
+
+            Console.WriteLine("Enter the type:Logic1/Logic2");
+            string logic = Console.ReadLine();
+
+            ILogicSelector Logic = new ControlFactory();
+            Logic.LogicSelector(logic);
+
+            //IFindpair SumPair = new Logic2();
+            //Logic.SumPair.FindPair(Input, sum);
         }
 
-        public static void findPair(int[] A, int sum)  //Logic_1
-        {
-            int count = 0;
-            for (int i = 0; i < A.Length - 1; i++)
-            {
-                for (int j = i + 1; j < A.Length; j++)
-                {
-                    if (A[i] + A[j] == sum)
-                    {
-                        Console.WriteLine("Pair found for the given sum of the element is {0} and {1}", A[i], A[j]);
-                        count++;
-                    }
-                }
-            }
-            if(count == 0)
-            { 
-                Console.WriteLine("No pair found"); 
-            }
-            else
-            {
-                return;
-            }
-            
-        }
+       
+        //public static void FindPair(int[] A, int sum)
+        //{
+        //    Array.Sort(A);
+
+
+
+        //}
+
+
     }
+   
 }
 
     

@@ -12,16 +12,19 @@ namespace Command
             this.car = car;
         }
 
-        public void execute()
+        public string Execute()
         {
-            Console.WriteLine("CarMoveCommand.execute(): Invoking move() on Car");
             car.Move();
+            return "CarMoveCommand.execute(): Invoking move() on Car";
         }
 
-        public void undo()
+       
+        public string Undo()
         {
-            Console.WriteLine("CarMoveCommand.undo():  Undoing previous action->Invoking stop() on Car");
             car.Stop();
+            return "CarMoveCommand.undo():  Undoing previous action->Invoking stop() on Car";
+            
+            
         }
     }
 }

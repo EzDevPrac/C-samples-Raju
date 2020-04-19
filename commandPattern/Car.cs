@@ -6,13 +6,13 @@ namespace Command
 {
   public  class Car
     {
-        public void Move()
+        public string Move()
         {
-            Console.WriteLine("Car is moving");
+             return "Car is moving";
         }
-        public void Stop()
+        public string Stop()
         {
-            Console.WriteLine("Car has stopped");
+             return "Car has stopped";
         }
     }
 }

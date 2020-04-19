@@ -7,21 +7,23 @@ namespace Command
     class RemoteControl
     {
         public ICommandBase onCommand, offCommand, undoCommand;
-        public void onButtonPressed(ICommandBase onCommand)
+        public string OnButtonPressed(ICommandBase onCommand)
         {
             this.onCommand = onCommand;
-            onCommand.execute();
-            undoCommand = onCommand;
+            onCommand.Execute();
+             undoCommand = onCommand;
+            return Convert.ToString(undoCommand);
         }
-        public void offButtonPressed(ICommandBase offCommand)
+        public string OffButtonPressed(ICommandBase offCommand)
         {
             this.offCommand = offCommand;
-            offCommand.execute();
+            offCommand.Execute();
             undoCommand = offCommand;
+            return Convert.ToString(undoCommand);
         }
-        public void undoButtonPressed()
-        {
-            undoCommand.undo();
+        public string UndoButtonPressed()
+        { 
+            return undoCommand.Undo();
         }
     }
 }

@@ -6,13 +6,13 @@ namespace Command
 {
    public class RotatingTop
     {
-        public void StartRotating()
+        public string StartRotating()
         {
-            Console.WriteLine("Top has start rotating");
+            return "Top has start rotating";
         }
-        public void StopRotating()
+        public string StopRotating()
         {
-            Console.WriteLine("Top has stopped rotating");
+            return "Top has stopped rotating";
         }
     }
 }
