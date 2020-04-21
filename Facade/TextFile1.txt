@@ -1,0 +1,16 @@
+﻿Raju is trying to create an e-commerce website. He finds that many actions are performed by the buyer or the client in this short interval of time. In that short interval a client has to make an order, make payment and wait for the delivery he thinks. 
+**These are in general even many more services that are performed during this time.**
+He created class of three services **PaymentService, and InventoryService and linked these with the MainController class. **
+After some time he finds that he needed one more subclass ShippingService for delivery status. So he created and linked with the other classes. But he finds that it was very disturbing because of the tight coupling of the classes with each other. 
+**Here the client directly interacts with the subclasses and every other classes are tightly coupled.**
+ Every time he do some changes he has to alter every class. 
+**And to solve this problem facade design pattern is introduced. It simplifies the complexity.**
+After some time he called his friend Srini and explained everything. Srini told him to go through the Facade Design Pattern. So he started looking through the pattern. After some time he was astonished that these problems can be easily solved using this pattern.
+
+**And to solve this problem facade design pattern is introduced. It simplify the complexity. In other sense every service class such as payment, inventory availability,
+delivery status will independent. These classes are linked to the facade class. Facade has a reference to every subclass but the subclass don't have a link to the facade.**
+So he created an interface named IOrderServiceFacade. And he implemented that in another class called facade. This facade class has reference to every other subclasses. 
+**The user will interact with facade class and then the facade class will interact with other subclasses such as inventory, delivery, payment, etc. **
+  
+So every time client makes an interface with facade class and this class make communicates with every other subclass. Now he doesn't need to change every other subclass to create new subclasses.
+
