@@ -90,10 +90,10 @@ C:\Users\HK R.K\source\repos\variousConcept\Facade.Test\bin\Debug\netcoreapp3.1\
 C:\Users\HK R.K\source\repos\variousConcept\Facade.Test\bin\Debug\netcoreapp3.1\Facade.dll
 C:\Users\HK R.K\source\repos\variousConcept\Facade.Test\bin\Debug\netcoreapp3.1\Facade.pdb
 C:\Users\HK R.K\source\repos\variousConcept\Facade.Test\obj\Debug\netcoreapp3.1\Facade.Test.csprojAssemblyReference.cache
-C:\Users\HK R.K\source\repos\variousConcept\Facade.Test\obj\Debug\netcoreapp3.1\Facade.Test.csproj.CoreCompileInputs.cache
 C:\Users\HK R.K\source\repos\variousConcept\Facade.Test\obj\Debug\netcoreapp3.1\Facade.Test.AssemblyInfoInputs.cache
 C:\Users\HK R.K\source\repos\variousConcept\Facade.Test\obj\Debug\netcoreapp3.1\Facade.Test.AssemblyInfo.cs
 C:\Users\HK R.K\source\repos\variousConcept\Facade.Test\obj\Debug\netcoreapp3.1\Facade.Test.csproj.CopyComplete
 C:\Users\HK R.K\source\repos\variousConcept\Facade.Test\obj\Debug\netcoreapp3.1\Facade.Test.dll
 C:\Users\HK R.K\source\repos\variousConcept\Facade.Test\obj\Debug\netcoreapp3.1\Facade.Test.pdb
 C:\Users\HK R.K\source\repos\variousConcept\Facade.Test\obj\Debug\netcoreapp3.1\Facade.Test.genruntimeconfig.cache
+C:\Users\HK R.K\source\repos\variousConcept\Facade.Test\obj\Debug\netcoreapp3.1\Facade.Test.csproj.CoreCompileInputs.cache

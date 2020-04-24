@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "NK927VTA2i0g1AnlSDpy9/ZlG52D/v3bx5MbFZOt1rP9tOdjU0O4QOTAvUZQkTtNCEbXYwajq8tf/fikx9Pzpg==",
+  "dgSpecHash": "LSKoP13hDmfGKsfVsO0MgIoPHbbikb+/uKmwaKcL/zLcXRPcfPvEudcksGicW7qqsJlXWK/Q2s36GEQ3y/FfOQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\HK R.K\\source\\repos\\variousConcept\\Facade.Test\\Facade.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HK R.K\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
-    "C:\\Users\\HK R.K\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
+    "C:\\Users\\HK R.K\\.nuget\\packages\\microsoft.codecoverage\\16.6.0\\microsoft.codecoverage.16.6.0.nupkg.sha512",
     "C:\\Users\\HK R.K\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\HK R.K\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
     "C:\\Users\\HK R.K\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
