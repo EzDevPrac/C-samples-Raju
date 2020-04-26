@@ -12,6 +12,20 @@ Design pattern is basically of three types.
 `Structural Design Patterns`
 `Behavior Design Patterns`
 
+### Singleton Pattern
+
+Singleton design pattern is one of the creational design patterns. As its name specifies it only be **instantiated** only once. It is useful when the following cases arise.
+
+- When only one instance of a class is created.
+- Provide a global access point to this instance.
+
+ **A simple flow of Score calculator in different cases while playing games. I have a `Runningclass` named `Trackscore` and a `killingclass` name `KillScore`. And a `ScoreManager class` which will only create a single instance and provide global access to manage all score during gameplay.**
+ 
+![Flow diagram](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/d103afe7da75dec83b9af9480dd51093/SingletonPattern.png)
+
+
+
+
 ### Facade Design Pattern.
 
 Facade Design Pattern is part of the structural design pattern family. 
