@@ -23,7 +23,7 @@ Singleton design pattern is one of the creational design patterns. As its name s
  
 ![Flow diagram](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/d103afe7da75dec83b9af9480dd51093/SingletonPattern.png)
 
-
+---
 
 
 ### Facade Design Pattern.
