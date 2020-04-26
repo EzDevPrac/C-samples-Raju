@@ -1,0 +1,12 @@
+C:\Users\HK R.K\source\repos\variousConcept\LazyInitialization\bin\Debug\netcoreapp3.1\LazyInitialization.exe
+C:\Users\HK R.K\source\repos\variousConcept\LazyInitialization\bin\Debug\netcoreapp3.1\LazyInitialization.deps.json
+C:\Users\HK R.K\source\repos\variousConcept\LazyInitialization\bin\Debug\netcoreapp3.1\LazyInitialization.runtimeconfig.json
+C:\Users\HK R.K\source\repos\variousConcept\LazyInitialization\bin\Debug\netcoreapp3.1\LazyInitialization.runtimeconfig.dev.json
+C:\Users\HK R.K\source\repos\variousConcept\LazyInitialization\bin\Debug\netcoreapp3.1\LazyInitialization.dll
+C:\Users\HK R.K\source\repos\variousConcept\LazyInitialization\bin\Debug\netcoreapp3.1\LazyInitialization.pdb
+C:\Users\HK R.K\source\repos\variousConcept\LazyInitialization\obj\Debug\netcoreapp3.1\LazyInitialization.csproj.CoreCompileInputs.cache
+C:\Users\HK R.K\source\repos\variousConcept\LazyInitialization\obj\Debug\netcoreapp3.1\LazyInitialization.AssemblyInfoInputs.cache
+C:\Users\HK R.K\source\repos\variousConcept\LazyInitialization\obj\Debug\netcoreapp3.1\LazyInitialization.AssemblyInfo.cs
+C:\Users\HK R.K\source\repos\variousConcept\LazyInitialization\obj\Debug\netcoreapp3.1\LazyInitialization.dll
+C:\Users\HK R.K\source\repos\variousConcept\LazyInitialization\obj\Debug\netcoreapp3.1\LazyInitialization.pdb
+C:\Users\HK R.K\source\repos\variousConcept\LazyInitialization\obj\Debug\netcoreapp3.1\LazyInitialization.genruntimeconfig.cache
