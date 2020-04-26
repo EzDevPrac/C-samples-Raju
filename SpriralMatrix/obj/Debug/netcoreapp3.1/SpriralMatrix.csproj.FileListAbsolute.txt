@@ -1,0 +1,13 @@
+C:\Users\HK R.K\source\repos\variousConcept\SpriralMatrix\obj\Debug\netcoreapp3.1\SpriralMatrix.csprojAssemblyReference.cache
+C:\Users\HK R.K\source\repos\variousConcept\SpriralMatrix\obj\Debug\netcoreapp3.1\SpriralMatrix.csproj.CoreCompileInputs.cache
+C:\Users\HK R.K\source\repos\variousConcept\SpriralMatrix\obj\Debug\netcoreapp3.1\SpriralMatrix.AssemblyInfoInputs.cache
+C:\Users\HK R.K\source\repos\variousConcept\SpriralMatrix\obj\Debug\netcoreapp3.1\SpriralMatrix.AssemblyInfo.cs
+C:\Users\HK R.K\source\repos\variousConcept\SpriralMatrix\bin\Debug\netcoreapp3.1\SpriralMatrix.exe
+C:\Users\HK R.K\source\repos\variousConcept\SpriralMatrix\bin\Debug\netcoreapp3.1\SpriralMatrix.deps.json
+C:\Users\HK R.K\source\repos\variousConcept\SpriralMatrix\bin\Debug\netcoreapp3.1\SpriralMatrix.runtimeconfig.json
+C:\Users\HK R.K\source\repos\variousConcept\SpriralMatrix\bin\Debug\netcoreapp3.1\SpriralMatrix.runtimeconfig.dev.json
+C:\Users\HK R.K\source\repos\variousConcept\SpriralMatrix\bin\Debug\netcoreapp3.1\SpriralMatrix.dll
+C:\Users\HK R.K\source\repos\variousConcept\SpriralMatrix\bin\Debug\netcoreapp3.1\SpriralMatrix.pdb
+C:\Users\HK R.K\source\repos\variousConcept\SpriralMatrix\obj\Debug\netcoreapp3.1\SpriralMatrix.dll
+C:\Users\HK R.K\source\repos\variousConcept\SpriralMatrix\obj\Debug\netcoreapp3.1\SpriralMatrix.pdb
+C:\Users\HK R.K\source\repos\variousConcept\SpriralMatrix\obj\Debug\netcoreapp3.1\SpriralMatrix.genruntimeconfig.cache
