@@ -12,9 +12,30 @@ Design pattern is basically of three types.
 `Structural Design Patterns`
 `Behavior Design Patterns`
 
+### Decorator Pattern
+
+Decorator design pattern is one of the **structural design pattern**.As it name specifies it is used to decorate an object with different behaviors.
+
+>  Points to remember 
+- Used to load different behavior dynamically with an object .
+- One of the structural design pattern.
+- Comes handy when you think better way to implement inheritance.
+- Follow [Open closed Principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
+- Easy to modify the classes and it's dependency
+
+### Story Mode:
+
+*This is the story of a Cat named Tom(Many of you may have heard it) a genius programmer. He has a shop of flower bouquet. Tom was designing software for managing his shop and to provide different types of flower bouquet. He was designing his software and writing classes for different types of flower bouquet and during that interval a girl named Terena and his friend Lavanya came and asked do you also decorate these flower bouquet? Tom replied yes we do. And as per the requirement Tom has sold the flower bouquet. Then Tom went on writing the software suddenly this incident struck his mind and he thought that for every type of flower bouquet he needs to add different types of decoration. (**For an example for RoseBouquet there can be n no of decoration such as GlitterRoseBouquet, Paperwrapperbonquet, etc**). So he started thinking that every time he needs to add some new flower or new decoration he needs to modify the overall class. So he started searching on the internet and found help on the book written by [(GoF)](https://en.wikipedia.org/wiki/Design_Patterns). In that he read about decorator patterns which allow him to create an object dynamically with different behavior. He thought to implement this pattern in his software. And he was successful and after that whenever some new decoration comes he just add a class and pass that class behavior to flower bouquet object.*
+
+ 
+
+---
+
+
+
 ### Singleton Pattern
 
-Singleton design pattern is one of the creational design patterns. As its name specifies it only be **instantiated** only once. It is useful when the following cases arise.
+Singleton design pattern is one of the **creational design patterns**. As its name specifies it only be **instantiated** only once. It is useful when the following cases arise.
 
 - When only one instance of a class is created.
 - Provide a global access point to this instance.
@@ -23,12 +44,15 @@ Singleton design pattern is one of the creational design patterns. As its name s
  
 ![Flow diagram](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/d103afe7da75dec83b9af9480dd51093/SingletonPattern.png)
 
+
+*Here is the simple example go play with it [EagerInitilization](https://github.com/EzDevPrac/CsharpConcept-Raju/tree/master/EagerInitilization) and [LazyInitialization](https://github.com/EzDevPrac/CsharpConcept-Raju/tree/master/LazyInitialization)*
+
 ---
 
 
 ### Facade Design Pattern.
 
-Facade Design Pattern is part of the structural design pattern family. 
+Facade Design Pattern is part of the **structural design pattern** family. 
 1. It is used to simplify the interaction process.
 2. Subclass are independent classes.
 3. Facade has refrence to these class.
