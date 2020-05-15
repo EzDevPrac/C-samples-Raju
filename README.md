@@ -2,7 +2,56 @@
 
 
 
-### Design Pattern
+#  Dependency Injection(DI) & Inversion of Control (IoC)
+
+- What is Dependency Injection?
+- What is Inversion of Control?
+- Types of DI.
+- More READ.
+
+
+
+## What is Dependency Injection?
+
+As the word dependent means to take support of something or someone and Injection refer to inject something. **So, we can say that Dependency Injection is a process of injecting something with the help of someone or something**. 
+
+### Important Read:-
+>*Suppose you are ill and you need an injection to be cured but you know that you can't do it by yourself so you went to the doctor and asked for his help. Now you are dependent on the doctor for the medicine to be injected to you through injection.*
+
+## Principles
+
+Dependency Injection is based on the letter  **D** in the **SOLID** principles. D stand for [Dependency inversion principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle "Dependency inversion principle"). 
+
+## Inversion of Control
+As the word Inversion describes a condition where something is turned upside down. Inversion of Control also describes a condition where the control is changed.
+
+### Important Read:-
+>*Before marriage you are controlling the house. After marriage your wife is controlling the house*.
+
+It is based on the **Hollywood Principle**.
+
+Dependency Injection is at the **micro** level and Inversion of Control is at the **macro** level.
+
+_“**Inversion of control is principal and Dependency Injection is implementation**”_.
+
+### Types of Dependency Injection 
+
+-  [Constructor](https://softwareengineering.stackexchange.com/questions/177649/what-is-constructor-injection)
+-   Setter (Properties)
+-   Method. 
+
+### MORE READ
+- https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/
+- https://github.com/ninject/ninject/wiki/Dependency-Injection-By-Hand
+- https://blog.ploeh.dk/
+- https://stackoverflow.com/questions/130794/what-is-dependency-injection
+- https://martinfowler.com/articles/injection.html
+
+
+
+
+
+# Design Pattern
 Design pattern is basically of three types.
 A design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design.
 
