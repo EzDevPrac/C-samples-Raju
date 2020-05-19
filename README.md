@@ -61,6 +61,107 @@ Design pattern is basically of three types.
 `Structural Design Patterns`
 `Behavior Design Patterns`
 
+
+
+## Strategy Pattern
+
+- What is Strategy Pattern?
+- Real World Application.
+- Class Diagram.
+-  Pseudocode.
+ - What are benefits?
+
+### What is Strategy Pattern?
+
+Strategy Pattern is one **behavior design pattern** that lets you help in make decision over a various plan or strategy. It is based upon the open closed principle. It provides you to set which strategy you want to take during the runtime.
+
+### Real World Application.
+
+*Suppose you are going to your home from school and you know that there is two different path for going home. Path A is little long and Path B is short. For reaching home you have to decide which path you have to take either Path A or either Path B.*
+
+
+### Class Diagram.
+
+![Class diagram](https://gitlab.com/vr.srinidhi/retailplusrota/-/wikis/uploads/56d39e0afc85c8156ac7db163a42e1f6/Stategy.png)
+
+### Pseudocode.
+
+    > strategy.sln
+  
+  ```csharp
+
+interface IStrategy    //implement an interface
+    {
+        object PerformAlgorithm(object data);
+    }
+
+
+ class SortingMathodA : IStrategy   //ConcreteStrategyA
+ {
+ write your sorting method
+ }
+
+
+ class SortingMathodB : IStrategy   //ConcreteStrategyB
+ {
+ write your sorting method
+ }
+
+
+  class Context
+  {
+  public Context() { }       //create a Context contructor 
+  
+   public void SetStrategy(IStrategy strategy)
+        {
+            this.Strategy = strategy;   // Set your sortingmethod
+        }
+  define somemethod
+  
+  }
+
+
+  class Client
+  {
+  Call the context class       // var Context = new Context();
+  select the sorting method
+    if(sortingMethod == A)
+  call the context class and pass this sorting method A.
+    if(sortingMethod == B)
+  call the context class and pass this sorting method B.
+  print result;
+  }
+
+
+  class Driver
+  {
+  static void Main(string[] args)
+        {
+            new Client().Main();  //implement main
+        }
+  }
+   ```
+
+
+### What are benefits?
+- used to alter the behavior of the object at run time.
+- have lot of class only differ in only way to execute.
+- use it to isolate business layer.
+
+### IMp Point.
+    * Comes under behavioral design pattern.
+    * Follow Open/Closed Principle.
+    * Used to take decision at run time.
+    
+### More Read
+https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle <br/>
+https://en.wikipedia.org/wiki/Strategy_pattern <br/>
+http://w3sdesign.com/?gr=b09&ugr=proble
+
+
+
+
+
 ### Decorator Pattern
 
 Decorator design pattern is one of the **structural design pattern**.As it name specifies it is used to decorate an object with different behaviors.
