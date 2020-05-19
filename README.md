@@ -48,7 +48,7 @@ _“**Inversion of control is principal and Dependency Injection is implementati
 - https://martinfowler.com/articles/injection.html
 
 
-
+---
 
 
 # Design Pattern
@@ -62,7 +62,7 @@ Design pattern is basically of three types.
 `Behavior Design Patterns`
 
 
-
+---
 ## Strategy Pattern
 
 - What is Strategy Pattern?
@@ -159,7 +159,7 @@ https://en.wikipedia.org/wiki/Strategy_pattern <br/>
 http://w3sdesign.com/?gr=b09&ugr=proble
 
 
-
+---
 
 
 ### Decorator Pattern
