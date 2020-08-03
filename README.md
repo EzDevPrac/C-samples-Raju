@@ -2,6 +2,87 @@
 
 
 
+
+# Object-Oriented Programming in C#.
+
+
+## What is OOP?
+Well, OOP is a programming Paradigm in which every program is considered as a part or as an object.
+*For instance, when we develop a Banking Application then everything in this context we will consider as an object. And each object will talk to each other.Such as A Bank Customer will talk to a Bank Employee. And every Bank Employee can talk to the Bank Manager, even the Customer can talk to the Manager.Here The Customer, Employee, and Manager can be taken as an Object.*
+
+## Why OOP?
+First of all, if we go and look before the OOPs, it was mostly a structural or procedural way of solving the problem. And OOPs have certain advantages over them such as data hiding, code reusability was not available in structural programming.While even maintainability is much easier in case of OOP.
+
+### Features of OOPs
+  - **Abstraction**
+  - **Encapsulation**
+  - **Inheritance**
+  - **Polymorphism**
+
+
+## Abstraction:
+  - **What!**
+ It is a process of hiding the implementation part and exposing or showing only the necessary details through the help of methods or properties. It is achieved by using the abstract keyword. Abstraction can be possible without the use of abstract keyword also. Complete abstraction can be gained by using an interface.
+
+- **Why!**   
+  - Help to hide or encapsulate the unnecessary logic.
+  - Help to increase security by only exposing the necessary details.
+  - Increase the code reusability and code duplication is avoided.
+  - Helps to reuse methods without knowing the logic part.
+
+- **When!**
+  - In case when we only want to provide the functionality of what my method does rather than how it does.
+*For instance, we don't know the logical implementation of the Console.WriteLine But we still able to use it.*
+
+## Encapsulation:
+
+ - **What!**
+ Encapsulation is a process of limiting the scope of data members by binding these data members to some methods or behavior. It is achieved by using access modifiers. These data members can be only accessed through the behaviors and properties.
+
+- **Why!**
+  - It provides loose coupling.
+  - Gives the concept of Modularity. i.e Every program is considered as a separate module.
+  - Data Security is increased due to the scope limitation.
+
+- **When!**
+  - In case when you want that your data member should not take any corrupted or garbage value and to prevent unauthorized access this data member is given access through some behavior that contains the logic solution for verifying this.
+  - When you want to separate every component as a module.
+
+## Inheritance:
+
+- **What!**
+ Inheritance is one of the key features of OOPs which allow us to inherit the field(instance variable) and property of another class. In real-time the blood relation is the most clearest and best example of inheritance.
+
+- **Why!**
+  - Code Reusability.
+  - Common Functionality.
+  
+- **When!**
+  - When we want to have common functionality in multiple classes.
+
+## Polymorphism:
+
+- **What!**
+It is a process of redefining a method by keeping the same name and same or different implementation. It can be achieved in two ways...
+
+   - Overloading
+   - Overriding
+
+- **Why!**
+  - Code Flexibility
+
+- **When!**
+  - When we want to have a common name for different operations.
+## Overloading(Compile-time, Early binding, Static binding)
+                    
+
+                                                              **STILL Under Update** 
+
+
+---
+
+
+
 #  Dependency Injection(DI) & Inversion of Control (IoC)
 
 - What is Dependency Injection?
