@@ -21,7 +21,9 @@ First of all, if we go and look before the OOPs, it was mostly a structural or p
 
 
 ## Abstraction:
+
   - **What!**
+  
  It is a process of hiding the implementation part and exposing or showing only the necessary details through the help of methods or properties. It is achieved by using the abstract keyword. Abstraction can be possible without the use of abstract keyword also. Complete abstraction can be gained by using an interface.
 
 - **Why!**   
@@ -37,6 +39,7 @@ First of all, if we go and look before the OOPs, it was mostly a structural or p
 ## Encapsulation:
 
  - **What!**
+ 
  Encapsulation is a process of limiting the scope of data members by binding these data members to some methods or behavior. It is achieved by using access modifiers. These data members can be only accessed through the behaviors and properties.
 
 - **Why!**
@@ -51,6 +54,7 @@ First of all, if we go and look before the OOPs, it was mostly a structural or p
 ## Inheritance:
 
 - **What!**
+
  Inheritance is one of the key features of OOPs which allow us to inherit the field(instance variable) and property of another class. In real-time the blood relation is the most clearest and best example of inheritance.
 
 - **Why!**
@@ -63,6 +67,7 @@ First of all, if we go and look before the OOPs, it was mostly a structural or p
 ## Polymorphism:
 
 - **What!**
+
 It is a process of redefining a method by keeping the same name and same or different implementation. It can be achieved in two ways...
 
    - Overloading
